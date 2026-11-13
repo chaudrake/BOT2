@@ -2,8 +2,8 @@ name: Art Bot
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 17 * * *"
+ # schedule:
+ #   - cron: "0 17 * * *"
 
 # Autoriser le workflow à modifier les fichiers du dépôt
 permissions:
